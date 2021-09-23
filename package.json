@@ -1,20 +1,24 @@
 {
-  "name": "quick-tip-calculator-by-adeel",
+  "name": "quick-tip-calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build src/index.html",
-    "start": "parcel serve src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html"
   },
-  "author": "Adeel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeelchaudhary/quick-tip-calculator.git"
+  },
+  "author": "Muhammad Adeel Chaudhary",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.0.0-rc.0"
+  "bugs": {
+    "url": "https://github.com/madeelchaudhary/quick-tip-calculator/issues"
   },
+  "homepage": "https://github.com/madeelchaudhary/quick-tip-calculator#readme",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0"
+    "parcel-bundler": "^1.12.5"
   }
 }
